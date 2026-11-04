@@ -497,6 +497,11 @@
          only background_color or the wallpaper behind everything. Can also be set with "ambient_glow": false in a
          theme's config.json. -->
     <bool name="ambient_glow">true</bool>
+
+    <!-- With cinematic_home: two glance cards between the top bar and the dock, news on the left and weather on
+         the right, read from the TV Remote app (home.tvremote, github.com/rayedriasat/android-tv-makeover).
+         Nothing shows when that app is not installed. -->
+    <bool name="glance">true</bool>
     <!-- true: when the focus moves to an app of another colour, the ambient glow takes the new colour in one frame
          instead of dimming and fading back in. Each frame of that fade repaints the whole screen, about 40 per key
          press, which a slow GPU such as the Mali-G52 cannot keep up with. Can also be set with "glow_snap" in a

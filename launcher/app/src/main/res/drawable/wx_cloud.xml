@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Glance panel weather icon, flat colour. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <path android:pathData="M18,10.5h-1.1A7,7 0 1,0 9.5,20h8.5a4.75,4.75 0 0,0 0,-9.5z" android:fillColor="#F2F5FA" />
+</vector>
